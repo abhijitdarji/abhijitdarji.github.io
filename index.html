@@ -101,12 +101,9 @@
 		}
 		
 		.verticalline {
-			min-width: 50px;
-			padding: 0px 5px;
-			transform: rotate(90deg);
-			-o-transform: rotate(90deg);
-			-moz-transform: rotate(90deg);
-			-webkit-transform: rotate(90deg);
+			border-left: solid 1px black;
+			padding-right: 5px;
+			margin-left: 5px;
 		}
 		
 		.md-button.md-small {
@@ -118,6 +115,10 @@
 			min-width: 1%;
 			font-size: 12px;
 			margin: 0 0;
+		}
+		
+		.myphotodetails {
+			height: 120px;
 		}
 		
 		@media only screen and (max-width:500px) {
@@ -148,6 +149,13 @@
 		}
 		
 		@media only screen and (max-width:500px) {
+			.myphoto {
+				height: 100px;
+				width: 100px;
+			}
+			.myphotodetails {
+				height: 100px;
+			}
 			.certImg img {
 				height: 40px;
 				width: 150px;
@@ -194,11 +202,11 @@
 			<div layout="row">
 				<div>
 					<md-card>
-						<img ng-src="img/photo.jpg" class="md-card-image" alt="Photo">
+						<img ng-src="img/photo.jpg" class="md-card-image myphoto" alt="Photo">
 					</md-card>
 				</div>
 				<div flex>
-					<md-card class="md-padding" style="height:120px;">
+					<md-card class="md-padding myphotodetails">
 						<md-content>
 							<div layout="row">
 								<div layout="column">
@@ -208,7 +216,7 @@
 									<div class="md-caption">{{::vm.data.personal.address}} </div>
 								</div>
 								<div flex></div>
-								<div id="socialActions">
+								<div id="socialActions" hide-sm>
 									<md-button class="md-small" aria-label="github" ng-href="{{::vm.data.personal.social.github}}" target="_blank">
 										<md-icon md-font-icon="fa fa-github-square fa-black" ng-class="::{'fa-2x':!vm.smallScreen}"></md-icon>
 									</md-button>
@@ -249,12 +257,12 @@
 					<div layout="column">
 						<div layout="row" ng-repeat="skill in ::vm.data.skills">
 							<div flex="20" align="right">
-								<span class="md-title">{{skill.title}}</span>
+								<span ng-class="::{'md-title':!vm.smallScreen}">{{skill.title}}</span>
 							</div>
 
-							<hr class="verticalline">
+							<div class="verticalline"></div>
 
-							<div flex="75">
+							<div flex="80">
 								<span class="md-body-1">{{skill.details}}</span>
 							</div>
 						</div>
@@ -331,7 +339,7 @@
 							<span class="md-body-1">{{edu.details}}</span>
 						</div>
 						<span flex></span>
-						<div class="eduImg">
+						<div class="eduImg" hide-sm>
 							<img ng-src="{{edu.image}}" alt="image"></div>
 						<md-divider ng-hide="$last"></md-divider>
 					</div>
@@ -354,14 +362,14 @@
 							<span class="md-caption">{{cert.details}}</span>
 						</div>
 						<span flex></span>
-						<div class="certImg">
+						<div class="certImg" hide-sm>
 							<img ng-src="{{cert.image}}" alt="image"></div>
 						<md-divider ng-hide="$last"></md-divider>
 					</div>
 				</div>
 		</div>
 		</md-card>
-		
+
 		<!--git projects-->
 		<!--<md-card>
 				<md-toolbar class="md-hue-2">
