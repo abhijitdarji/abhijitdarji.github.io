@@ -3,8 +3,13 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="description" content="Abhijit Darji resume">
+	<meta name="keywords" content=".net,angularjs,oracle,resume,florida">
+
 	<title>Resume</title>
 	<meta name="viewport" content="initial-scale=1" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -224,7 +229,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									<div class="md-caption">{{::vm.data.personal.address}} </div>
 								</div>
 								<div flex></div>
-								<div id="socialActions" hide-sm>
+								<div id="socialActions" show-gt-sm>
 									<md-button class="md-small" aria-label="github" ng-href="{{::vm.data.personal.social.github}}" target="_blank">
 										<md-icon md-font-icon="fa fa-github-square fa-black" ng-class="::{'fa-2x':!vm.smallScreen}"></md-icon>
 									</md-button>
@@ -377,7 +382,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 			</md-card>
 		</div>
-		
+
 
 		<!--git projects-->
 		<!--<md-card>
@@ -459,7 +464,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		)
 		.controller('ResumeController', function($mdMedia,$http,$window) {
 			var vm = this;
-			vm.smallScreen = $mdMedia('sm');
+			vm.smallScreen = $mdMedia('xs');
 			
 			$http.get('data.json').success(function(data){
 				angular.forEach(data.projects, function(value, key) {
