@@ -2,7 +2,7 @@
 	"personal": {
 		"name": "Abhijit R Darji",
 		"tagline": "Web Developer",
-		"currentWork": ".Net / AngularJS / Oracle",
+		"currentWork": ".Net / Angular 5 / Oracle",
 		"email": "abhijitdarji@gmail.com",
 		"address": "West Palm Beach, Florida",
 		"social": {
@@ -16,7 +16,7 @@
 	"summary": {
 		"title": "Professional Summary",
 		"details": [
-			"Over 8 years of IT industry work experience on development of .Net based web applications, Testing, troubleshooting production application, requirements gathering, documentation and Relational Databases.",
+			"Over 9 years of IT industry work experience on development of .Net/JavaScript based web applications, Testing, troubleshooting production application, requirements gathering, documentation and Relational Databases.",
 			"Worked on all phases of Software development life cycle and ability to handle wide range of tasks.",
 			"Experience on Object Oriented Programming using C#, Javascript.",
 			"Self-motivated, adaptable, responsible and eager to learn new things which will help me and my team to deliver projects with good quality and customer satisfaction.",
@@ -30,11 +30,11 @@
 		},
 		{
 			"title": "Web Scripts",
-			"details": "AngularJS, Angular Material, Bootstrap, jQuery, jQuery Mobile"
+			"details": "Angular 5, AngularJS, Angular Material, Bootstrap, jQuery, jQuery Mobile"
 		},
 		{
 			"title": "Database",
-			"details": "SQL Server 2005, Oracle 11g"
+			"details": "SQL Server 2005, Oracle 11g, 12c"
 		},
 		{
 			"title": "OS",
@@ -42,15 +42,15 @@
 		},
 		{
 			"title": "IDE",
-			"details": "VS Code, Visual Studio 2013, 2012, 2010, 2008, 2005, PL SQL Developer, Toad"
+			"details": "VS Code, Visual Studio 2015, 2012, 2010, 2008, 2005, PL SQL Developer, Toad"
 		},
 		{
 			"title": "Version Control",
-			"details": "Visual Studio 2008 Team Foundation Server, GIT, Microsoft VSS"
+			"details": "TFS 2008, 2010, 2013, GIT, Microsoft VSS"
 		},
 		{
 			"title": "Web Servers",
-			"details": "IIS 6,7"
+			"details": "IIS 6,7,7.5"
 		},
 		{
 			"title": "Office Tools",
@@ -84,13 +84,15 @@
 			"title": "Electronic Planning, Zoning and Building (ePZB)",
 			"summary": "ePZB provides Palm Beach County's Department of Planning, Zoning & Building with a comprehensive, integrated application for managing, monitoring and supporting their department's business processes. This modern web-enabled application makes use of an array of technologies which are seamlessly incorporated through an intuitive graphical interface. This application automates responsibilities and functions performed by the Administration, Building, Code Enforcement, Contractors Certification, Planning, and Zoning divisions.",
 			"responsibilities": [
+				"Developed Building Online Submittal application in Angular 5 and WebAPI.",
+				"Worked on conversion to Oracle Managed Driver 12c and also Oracle 12c database upgrade and testing.",
 				"Worked as developer for Building module in ePZB and also worked on Production support issues.",
 				"Involved in design, development, testing and documentation phases of enhancements in the project.",
 				"Worked on Oracle stored procedures, packages, performance improvement and query optimizations.",
 				"Developed application to automate manual task of monthly report generation of invalid file data.",
 				"Worked on cross browser compatibility for old aspx pages."
 			],
-			"environment": "ASP.NET 3.5, C#,VB.NET, HTML, JavaScript, CSS, AJAX, AJAX Control Toolkit, TFS 2010, Toad, Visual Studio 2010, IIS 7.5, XML, JSON, jQuery"
+			"environment": "ASP.NET 4, C#, Angular 5, VB.NET, HTML, JavaScript, CSS, AJAX, TFS 2013, Toad, Visual Studio 2010, IIS 7.5, XML, JSON, jQuery"
 		},
 		{
 			"client": "Avaya",
