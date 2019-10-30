@@ -1,8 +1,8 @@
 {
 	"personal": {
 		"name": "Abhijit R Darji",
-		"tagline": "Web Developer",
-		"currentWork": ".Net / Angular 5 / Oracle",
+		"tagline": "Full Stack Developer",
+		"currentWork": "Angular / .NET / Oracle",
 		"email": "abhijitdarji@gmail.com",
 		"address": "West Palm Beach, Florida",
 		"social": {
@@ -16,17 +16,19 @@
 	"summary": {
 		"title": "Professional Summary",
 		"details": [
-			"Over 9 years of IT industry work experience on development of .Net/JavaScript based web applications, Testing, troubleshooting production application, requirements gathering, documentation and Relational Databases.",
-			"Worked on all phases of Software development life cycle and ability to handle wide range of tasks.",
-			"Experience on Object Oriented Programming using C#, Javascript.",
-			"Self-motivated, adaptable, responsible and eager to learn new things which will help me and my team to deliver projects with good quality and customer satisfaction.",
+			"Over 10 years of IT industry work experience on development of .Net/JavaScript based Client/Server, N-tier architecture web applications, Testing, troubleshooting production application, requirements gathering, documentation and Relational Databases.",
+			"Worked on all phases of Software development life cycle and ability to handle wide range of tasks independently.",
+			"Excellent understanding of ASP/ASP.NET, C#, Visual Basic, MVC, Web Services/Windows Communication Foundation (SOAP, WSDL).",
+			"Experience on Object Oriented Programming using C#, JavaScript, TypeScript.",
+			"Experience in Developing User Interface (UI) Rich Web Applications, and Web Service Applications using Front End Technologies like Type Script, Angular 5, Angular JS, Bootstrap, Media Queries, CSS Frameworks.",
+			"Detail oriented and experienced in delivering the tasks with good code standards within the given timeframe. Able to work well when within a team as well as an independent developer.",
 			"Extensively worked with databases including Oracle, PL/SQL involving stored procedures, triggers, functions, indexes, packages and performance tuning."
 		]
 	},
 	"skills": [
 		{
 			"title": "Languages",
-			"details": "C#, HTML, CSS, JSON, JavaScript, XML, SQL, PLSQL"
+			"details": "C#, HTML, CSS, JSON, JavaScript, TypeScript, XML, SQL, PLSQL"
 		},
 		{
 			"title": "Web Scripts",
@@ -38,7 +40,7 @@
 		},
 		{
 			"title": "OS",
-			"details": "Windows Server 2003 and 2008, Windows 7, Windows Vista, Windows XP, DOS"
+			"details": "Windows Server 2003 and 2008, Windows 7, Windows Vista, Windows XP, DOS, MAC"
 		},
 		{
 			"title": "IDE",
@@ -54,7 +56,7 @@
 		},
 		{
 			"title": "Office Tools",
-			"details": "MS Word, Excel, Powerpoint"
+			"details": "MS Word, Excel, PowerPoint, Visio"
 		},
 		{
 			"title": "Misc",
@@ -80,11 +82,35 @@
 			"client": "Palm Beach County",
 			"clientLogo": "img/county-logo.png",
 			"position": "Analyst Programmer",
-			"duration": "Apr’14- till date",
+			"duration": "Dec’17- till date",
+			"title": "Building Online Submittal",
+			"summary": "Online Portal for Palm Beach County/State Contractors to apply for building permits online using pc or smartphones. A variety of functions can be performed using the portal like applying for a permit /upload documents /permit tracking /receive and respond to staff review comments and feedback /schedule inspections /download permit documents /manage permits. Portal can also be used to delegate the document uploading to respective architects/designers for the permit.",
+			"responsibilities": [
+				"Complete application architecture design, solution setup for Web API and Angular 5 project.
+                                "Used NPM for installing required node modules and other required Angular NPM modules.",
+                                "Worked Extensively with Angular CLI for creating Components, Services, Pipes, Directives.",
+                                "Developed forms with custom validations using Angular Form controls and Reactive forms.",
+                                "Heavily used Rxjs Observables for implementing HTTP calls.",
+                                "Used REST client / POSTMAN to check the response of various API's, Swagger UI as a visual documentation for back-end implementation and client-side consumption.",
+                                "Used bootstrap and custom CSS for good responsive web design.",
+                                "Created custom components like File Upload/ Wizard/ Drag and Drop/ and also directives for file select/ printing page using angular.",
+                                "Used Asp.NET 4.5 MVC project with Web API 2 for creating service layer.",
+                                "Design patterns like Repository, Dependency injection, IOC (Autofac).",
+                                "LINQ was used in the DAL (Data Access Layer) to interact with the Database.",
+                                "Involved in development of core business components for the application involving documents/ application submittal/ fees calculation/ comment response.",
+                                "Integrated Oracle AutoVue a Java based web markup tool with .net project using web services.",
+                                "Created a PWA app for permit inspectors to view their itinerary and result inspections that sync with the server using web service."
+			],
+			"environment": "ASP.NET 4.5, C#, Entity Framework 6, Angular 5, Angular CLI, TypeScript, HTML, JavaScript, CSS, Bootstrap, AJAX, TFS 2013, Toad, Visual Studio 2015, IIS 7.5, XML, JSON, jQuery"
+		},
+		{
+			"client": "Palm Beach County",
+			"clientLogo": "img/county-logo.png",
+			"position": "Analyst Programmer",
+			"duration": "Apr’14- Nov’17",
 			"title": "Electronic Planning, Zoning and Building (ePZB)",
 			"summary": "ePZB provides Palm Beach County's Department of Planning, Zoning & Building with a comprehensive, integrated application for managing, monitoring and supporting their department's business processes. This modern web-enabled application makes use of an array of technologies which are seamlessly incorporated through an intuitive graphical interface. This application automates responsibilities and functions performed by the Administration, Building, Code Enforcement, Contractors Certification, Planning, and Zoning divisions.",
 			"responsibilities": [
-				"Developed Building Online Submittal application in Angular 5 and WebAPI.",
 				"Worked on conversion to Oracle Managed Driver 12c and also Oracle 12c database upgrade and testing.",
 				"Worked as developer for Building module in ePZB and also worked on Production support issues.",
 				"Involved in design, development, testing and documentation phases of enhancements in the project.",
@@ -92,7 +118,7 @@
 				"Developed application to automate manual task of monthly report generation of invalid file data.",
 				"Worked on cross browser compatibility for old aspx pages."
 			],
-			"environment": "ASP.NET 4, C#, Angular 5, VB.NET, HTML, JavaScript, CSS, AJAX, TFS 2013, Toad, Visual Studio 2010, IIS 7.5, XML, JSON, jQuery"
+			"environment": "ASP.NET 4, C#, VB.NET, HTML, JavaScript, CSS, AJAX, TFS 2013, Toad, Visual Studio 2015, IIS 7.5, XML, JSON, jQuery"
 		},
 		{
 			"client": "Avaya",
