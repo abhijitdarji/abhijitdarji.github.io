@@ -86,7 +86,7 @@
 			"title": "Building Online Submittal",
 			"summary": "Online Portal for Palm Beach County/State Contractors to apply for building permits online using pc or smartphones. A variety of functions can be performed using the portal like applying for a permit /upload documents /permit tracking /receive and respond to staff review comments and feedback /schedule inspections /download permit documents /manage permits. Portal can also be used to delegate the document uploading to respective architects/designers for the permit.",
 			"responsibilities": [
-				"Complete application architecture design, solution setup for Web API and Angular 5 project.
+				"Complete application architecture design, solution setup for Web API and Angular 5 project.",
                                 "Used NPM for installing required node modules and other required Angular NPM modules.",
                                 "Worked Extensively with Angular CLI for creating Components, Services, Pipes, Directives.",
                                 "Developed forms with custom validations using Angular Form controls and Reactive forms.",
