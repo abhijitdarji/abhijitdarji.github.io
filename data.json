@@ -16,11 +16,10 @@
 	"summary": {
 		"title": "Professional Summary",
 		"details": [
-			"Over 10 years of IT industry work experience on development of .Net/JavaScript based Client/Server, N-tier architecture web applications, Testing, troubleshooting production application, requirements gathering, documentation and Relational Databases.",
+			"Over 12 years of IT industry work experience on development of .Net/JavaScript based web applications, testing, troubleshooting production application, requirements gathering, documentation and Relational Databases.",
 			"Worked on all phases of Software development life cycle and ability to handle wide range of tasks independently.",
-			"Excellent understanding of ASP/ASP.NET, C#, Visual Basic, MVC, Web Services/Windows Communication Foundation (SOAP, WSDL).",
 			"Experience on Object Oriented Programming using C#, JavaScript, TypeScript.",
-			"Experience in Developing User Interface (UI) Rich Web Applications, and Web Service Applications using Front End Technologies like Type Script, Angular 5, Angular JS, Bootstrap, Media Queries, CSS Frameworks.",
+			"Experience in Developing User Interface (UI) Rich Web Applications, and Web Service Applications using Front End/User Interface (UI) Technologies like Object Oriented JavaScript, Typescript, Angular 8, Angular JS, Node JS, Bootstrap, Media Queries, CSS Frameworks.",
 			"Detail oriented and experienced in delivering the tasks with good code standards within the given timeframe. Able to work well when within a team as well as an independent developer.",
 			"Extensively worked with databases including Oracle, PL/SQL involving stored procedures, triggers, functions, indexes, packages and performance tuning."
 		]
@@ -32,27 +31,27 @@
 		},
 		{
 			"title": "Web Scripts",
-			"details": "Angular 5, AngularJS, Angular Material, Bootstrap, jQuery, jQuery Mobile"
+			"details": "Angular, AngularJS, Angular Material, Bootstrap, jQuery, jQuery Mobile"
 		},
 		{
 			"title": "Database",
-			"details": "SQL Server 2005, Oracle 11g, 12c"
+			"details": "SQL Server, Oracle 11g, 12c"
 		},
 		{
 			"title": "OS",
-			"details": "Windows Server 2003 and 2008, Windows 7, Windows Vista, Windows XP, DOS, MAC"
+			"details": "Windows, MAC, Linux"
 		},
 		{
 			"title": "IDE",
-			"details": "VS Code, Visual Studio 2015, 2012, 2010, 2008, 2005, PL SQL Developer, Toad"
+			"details": "VS Code, Visual Studio, Toad, PL SQL Developer"
 		},
 		{
 			"title": "Version Control",
-			"details": "TFS 2008, 2010, 2013, GIT, Microsoft VSS"
+			"details": "GIT, TFS 2013, 2010, 2008, Microsoft VSS"
 		},
 		{
 			"title": "Web Servers",
-			"details": "IIS 6,7,7.5"
+			"details": "IIS, WebLogic"
 		},
 		{
 			"title": "Office Tools",
@@ -60,7 +59,7 @@
 		},
 		{
 			"title": "Misc",
-			"details": "Node.js, LESS, SketchFlow, GitHub, Gulp"
+			"details": "Node.js, SASS, SketchFlow, GitHub, Gulp"
 		}
 	],
 	"skillRatings":[
@@ -82,7 +81,28 @@
 			"client": "Palm Beach County",
 			"clientLogo": "img/county-logo.png",
 			"position": "Analyst Programmer",
-			"duration": "Dec’17- till date",
+			"duration": "Jan’20- till date",
+			"title": "eField",
+			"summary": "An Progressive Web Application (PWA) for Palm Beach County Building inspectors to result permit inspections using iPad or smartphones. An offline first application with ability to result inspection, attach inspection photos from library or capture from camera, speech to text, maps to show location, optimize route and start navigation to the location, inspector location tracking and syncing with the server. It also allows the inspector to view permit details and permit documents on demand.",
+			"responsibilities": [
+				"Complete app development including application architecture design and solution setup for PWA project using Angular 8 and Web API.",
+                                "Used NPM for installing required node modules and other required Angular NPM modules.",
+                                "Used Bootstrap 4 and custom CSS for creating a PWA that feels like native app.",
+				"App can be installed from the url on the device and it works offline.",
+				"Offline data is stored in IndexedDB. It periodically syncs data to the server using custom sync logic.",
+				"Used ArcGIS maps for the map based functionalities.",
+                                "Created custom components like Inspection location on map/ Optimize route/ enterprise login and also directives for file preview/ printing page using angular.",
+                                "Used Asp.NET 4.5 MVC project with Web API 2 for creating service layer.",
+                                "Design patterns like Repository, Dependency injection, IOC (Autofac).",
+                                "LINQ was used in the DAL (Data Access Layer) to interact with the Database."
+			],
+			"environment": "ASP.NET 4.5, C#, Entity Framework 6, Angular 8, Angular CLI, TypeScript, HTML, JavaScript, CSS, Bootstrap 4, TFS 2013, Toad, VS Code, IIS 8, JSON, jQuery"
+		},
+		{
+			"client": "Palm Beach County",
+			"clientLogo": "img/county-logo.png",
+			"position": "Analyst Programmer",
+			"duration": "Dec’17- Dec’19",
 			"title": "Building Online Submittal",
 			"summary": "Online Portal for Palm Beach County/State Contractors to apply for building permits online using pc or smartphones. A variety of functions can be performed using the portal like applying for a permit /upload documents /permit tracking /receive and respond to staff review comments and feedback /schedule inspections /download permit documents /manage permits. Portal can also be used to delegate the document uploading to respective architects/designers for the permit.",
 			"responsibilities": [
