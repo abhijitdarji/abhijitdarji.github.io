@@ -261,12 +261,14 @@
 		{
 			"title": "Azure AI Fundamentals",
 			"details": "",
-			"image": "img/ai-cert.png"
+			"image": "img/ai-cert.png",
+			"class": "ai"
 		},
 		{
 			"title": "MCTS .NET Framework 4, Web Applications.",
 			"details": "",
-			"image": "img/net-certi.gif"
+			"image": "img/net-certi.gif",
+			"class": "net4"
 		}
 	]
 }
