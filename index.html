@@ -143,9 +143,14 @@
 			width: 48px;
 		}
 		
-		.certImg img {
+		.certImg img.net4 {
 			height: 80px;
 			width: 300px;
+		}
+		
+		.certImg img.ai {
+			height: 80px;
+			width: 80px;
 		}
 		
 		.eduImg img {
@@ -376,7 +381,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</div>
 						<span flex></span>
 						<div class="certImg" hide-sm>
-							<img ng-src="{{cert.image}}" alt="image"></div>
+							<img ng-src="{{cert.image}}" ng-class="{{cert.class}}" alt="image"></div>
 						<md-divider ng-hide="$last"></md-divider>
 					</div>
 				</div>
