@@ -16,7 +16,7 @@
 	"summary": {
 		"title": "Professional Summary",
 		"details": [
-			"Over 12 years of IT industry work experience on development of .Net/JavaScript based web applications, testing, troubleshooting production application, requirements gathering, documentation and Relational Databases.",
+			"Over <strong>12</strong> years of IT industry work experience on development of .Net/JavaScript based web applications, testing, troubleshooting production application, requirements gathering, documentation and Relational Databases.",
 			"Worked on all phases of Software development life cycle and ability to handle wide range of tasks independently.",
 			"Experience on Object Oriented Programming using C#, JavaScript, TypeScript.",
 			"Experience in Developing User Interface (UI) Rich Web Applications, and Web Service Applications using Front End/User Interface (UI) Technologies like Object Oriented JavaScript, Typescript, Angular 8, Angular JS, Node JS, Bootstrap, Media Queries, CSS Frameworks.",
@@ -31,11 +31,15 @@
 		},
 		{
 			"title": "Web Scripts",
-			"details": "Angular, AngularJS, Angular Material, Bootstrap, jQuery, jQuery Mobile"
+			"details": "Angular, AngularJS, Angular Material, Bootstrap, jQuery"
 		},
 		{
 			"title": "Database",
-			"details": "SQL Server, Oracle 11g, 12c"
+			"details": "Oracle, SQL Server"
+		},
+		{
+			"title": "Data",
+			"details": "PowerBI, SSRS"
 		},
 		{
 			"title": "OS",
@@ -47,7 +51,7 @@
 		},
 		{
 			"title": "Version Control",
-			"details": "GIT, TFS 2013, 2010, 2008, Microsoft VSS"
+			"details": "GIT, TFS, Microsoft VSS"
 		},
 		{
 			"title": "Web Servers",
@@ -59,7 +63,7 @@
 		},
 		{
 			"title": "Misc",
-			"details": "Node.js, SASS, SketchFlow, GitHub, Gulp"
+			"details": "Node.js, SASS, SketchFlow, GitHub, Figma"
 		}
 	],
 	"skillRatings":[
@@ -79,7 +83,7 @@
 	"projects": [
 		{
 			"client": "Palm Beach County",
-			"clientLogo": "img/county-logo.png",
+			"clientLogo": "county-logo.png",
 			"position": "Analyst Programmer",
 			"duration": "Jan’20- till date",
 			"title": "eField",
@@ -100,7 +104,7 @@
 		},
 		{
 			"client": "Palm Beach County",
-			"clientLogo": "img/county-logo.png",
+			"clientLogo": "county-logo.png",
 			"position": "Analyst Programmer",
 			"duration": "Dec’17- Dec’19",
 			"title": "Building Online Submittal",
@@ -125,7 +129,7 @@
 		},
 		{
 			"client": "Palm Beach County",
-			"clientLogo": "img/county-logo.png",
+			"clientLogo": "county-logo.png",
 			"position": "Analyst Programmer",
 			"duration": "Apr’14- Nov’17",
 			"title": "Electronic Planning, Zoning and Building (ePZB)",
@@ -142,7 +146,7 @@
 		},
 		{
 			"client": "Avaya",
-			"clientLogo": "img/avaya-logo.jpg",
+			"clientLogo": "avaya-logo.jpg",
 			"position": "Technology Analyst/.Net Developer",
 			"duration": "Dec’13 – Apr’14",
 			"title": "One Source",
@@ -158,7 +162,7 @@
 		},
 		{
 			"client": "Syngenta Crop Protection",
-			"clientLogo": "img/syngenta-logo.png",
+			"clientLogo": "syngenta-logo.png",
 			"position": "Technology Analyst/.Net Developer",
 			"duration": "Jan’10 – Dec’12 and Apr’12 – Nov’13",
 			"title": "Redemption Management System (RMS)",
@@ -186,7 +190,7 @@
 		},
 		{
 			"client": "Syngenta Crop Protection",
-			"clientLogo": "img/syngenta-logo.png",
+			"clientLogo": "syngenta-logo.png",
 			"position": "Senior Software Engineer/.Net Developer",
 			"duration": "Jan’12 – Mar’12",
 			"title": "AgriCast",
@@ -206,7 +210,7 @@
 		},
 		{
 			"client": "Syngenta Crop Protection",
-			"clientLogo": "img/syngenta-logo.png",
+			"clientLogo": "syngenta-logo.png",
 			"position": "Software Engineer/.Net Developer",
 			"duration": "Sep’09 – Dec’09",
 			"title": "Licensing & Collaboration DB",
@@ -223,7 +227,7 @@
 		},
 		{
 			"client": "Infosys Ltd.",
-			"clientLogo": "img/infosys-logo.jpg",
+			"clientLogo": "infosys-logo.jpg",
 			"position": "Systems Engineer/.Net Developer",
 			"duration": "Mar’09 – Aug’09",
 			"title": "Meeting Room Booking System",
@@ -239,7 +243,7 @@
 		},
 		{
 			"client": "Infosys Ltd.",
-			"clientLogo": "img/infosys-logo.jpg",
+			"clientLogo": "infosys-logo.jpg",
 			"position": "Systems Engineer Trainee",
 			"duration": "Sept’08 – Feb’09",
 			"title": "Training Camp",
@@ -254,21 +258,34 @@
 		{
 			"title": "The Maharaja Sayajirao University of Baroda, Gujarat, India",
 			"details": "B.E., Mechanical Engineering (2004-2008) (First Class with Distinction)",
-			"image": "img/msu-logo.png"
+			"image": "msu-logo.png",
+			"class": "edu-img"
 		}
 	],
 	"certifications": [
 		{
-			"title": "Azure AI Fundamentals",
-			"details": "",
-			"image": "img/ai-cert.png",
-			"class": "ai"
+			"title": "Data Analyst Associate",
+			"details": "Analyzing Data with Microsoft PowerBI",
+			"image": "cert_DA-100.png",
+			"class": "cert-img"
 		},
 		{
-			"title": "MCTS .NET Framework 4, Web Applications.",
-			"details": "",
-			"image": "img/net-certi.gif",
-			"class": "net4"
+			"title": "Azure AI Fundamentals",
+			"details": "Microsoft Azure AI Fundamentals",
+			"image": "cert_AI-900.png",
+			"class": "cert-img"
+		},
+		{
+			"title": "Azure Fundamentals",
+			"details": "Microsoft Azure Fundamentals",
+			"image": "cert_AZ-900.png",
+			"class": "cert-img"
+		},
+		{
+			"title": "MCTS .NET Framework 4",
+			"details": "Web Applications .NET Framework 4",
+			"image": "cert_net4.gif",
+			"class": "cert-img net4"
 		}
 	]
 }
