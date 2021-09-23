@@ -1,0 +1,117 @@
+* {
+  --bg-blue: #3a3ab5;
+  --bg-dark-blue: #0f0f27;
+  /* --yellow: #ffc107; */
+}
+
+a:link,
+a:hover {
+  text-decoration: none;
+}
+/* a, a:visited, a:hover, a:active {
+  color: inherit;
+} */
+
+ul{
+  list-style-type: "+";
+  list-style-position: outside;
+}
+
+.header-jumbo {
+  height: 500px;
+  /* background-image: url('../assets/oleg-unsplash.jpg'); */
+  /* background-position: right 0 bottom 0;
+    background-size: 200%; */
+ }
+
+/* .header-end{
+  box-shadow: 0px -5px 20px -2px var(--bs-yellow);
+  -webkit-box-shadow: 0px -5px 20px -2px var(--bs-yellow);
+  -moz-box-shadow: 0px -5px 20px -2px var(--bs-yellow);
+} */
+
+.bg-blue {
+  background-color: var(--bg-blue);
+}
+.bg-dark-blue {
+  background-color: var(--bg-dark-blue);
+}
+
+.text-dark-blue {
+  color: var(--bg-dark-blue);
+}
+
+.material-icons {
+  color: #888;
+  transition: all ease 1s;
+}
+
+.over:hover .material-icons {
+  color: var(--bs-yellow);
+}
+
+.nav-links {
+  cursor: pointer;
+}
+
+.nav-links:hover .material-icons {
+  color: var(--bs-yellow);
+  transform: rotate(360deg);
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+  .nav-links {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    color: var(--bs-light);
+    /* Will override color (regardless of order) */
+    -webkit-text-fill-color: var(--bs-dark);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--bs-light);
+  }
+
+  .nav-links-dark {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    color: var(--bs-dark);
+    /* Will override color (regardless of order) */
+    -webkit-text-fill-color: var(--bs-light);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--bs-dark);
+  }
+}
+
+.companyLogo {
+  margin: -10px 20px;
+}
+
+.companyLogo img {
+  height: 48px;
+  width: 48px;
+}
+
+.projectSummary {
+  text-indent: 75px;
+}
+
+.cert-img{
+  height: 150px;
+  width: 150px;
+}
+
+.edu-img{
+  height: 80px;
+  width: 80px;
+}
+
+.cert-img.net4{
+  height: 80px;
+	width: 300px;
+  margin: 43px 0 !important;
+}
+
+@media only screen and (max-width:500px) {
+  .cert-img.net4{
+    height: 40px;
+    width: 150px;
+    margin: 63px 0 !important;
+  }
+}

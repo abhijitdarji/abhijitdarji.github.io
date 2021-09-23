@@ -1,0 +1,291 @@
+{
+	"personal": {
+		"name": "Abhijit R Darji",
+		"tagline": "Full Stack Developer",
+		"currentWork": "Angular / .NET / Oracle",
+		"email": "abhijitdarji@gmail.com",
+		"address": "West Palm Beach, Florida",
+		"social": {
+			"facebook": "",
+			"github": "http://github.com/abhijitdarji",
+			"linkedin": "",
+			"google": "",
+			"codepen": "http://codepen.io/abhijitdarji"
+		}
+	},
+	"summary": {
+		"title": "Professional Summary",
+		"details": [
+			"Over <strong>12</strong> years of IT industry work experience on development of .Net/JavaScript based web applications, testing, troubleshooting production application, requirements gathering, documentation and Relational Databases.",
+			"Worked on all phases of Software development life cycle and ability to handle wide range of tasks independently.",
+			"Experience on Object Oriented Programming using C#, JavaScript, TypeScript.",
+			"Experience in Developing User Interface (UI) Rich Web Applications, and Web Service Applications using Front End/User Interface (UI) Technologies like Object Oriented JavaScript, Typescript, Angular 8, Angular JS, Node JS, Bootstrap, Media Queries, CSS Frameworks.",
+			"Detail oriented and experienced in delivering the tasks with good code standards within the given timeframe. Able to work well when within a team as well as an independent developer.",
+			"Extensively worked with databases including Oracle, PL/SQL involving stored procedures, triggers, functions, indexes, packages and performance tuning."
+		]
+	},
+	"skills": [
+		{
+			"title": "Languages",
+			"details": "C#, HTML, CSS, JSON, JavaScript, TypeScript, XML, SQL, PLSQL"
+		},
+		{
+			"title": "Web Scripts",
+			"details": "Angular, AngularJS, Angular Material, Bootstrap, jQuery"
+		},
+		{
+			"title": "Database",
+			"details": "Oracle, SQL Server"
+		},
+		{
+			"title": "Data",
+			"details": "PowerBI, SSRS"
+		},
+		{
+			"title": "OS",
+			"details": "Windows, MAC, Linux"
+		},
+		{
+			"title": "IDE",
+			"details": "VS Code, Visual Studio, Toad, PL SQL Developer"
+		},
+		{
+			"title": "Version Control",
+			"details": "GIT, TFS, Microsoft VSS"
+		},
+		{
+			"title": "Web Servers",
+			"details": "IIS, WebLogic"
+		},
+		{
+			"title": "Office Tools",
+			"details": "MS Word, Excel, PowerPoint, Visio"
+		},
+		{
+			"title": "Misc",
+			"details": "Node.js, SASS, SketchFlow, GitHub, Figma"
+		}
+	],
+	"skillRatings":[
+		{
+			"title":".NET",
+			"value": 70	
+		},
+		{
+			"title":"JS",
+			"value": 60	
+		},
+		{
+			"title":"ORACLE",
+			"value": 80	
+		}	
+	],
+	"projects": [
+		{
+			"client": "Palm Beach County",
+			"clientLogo": "county-logo.png",
+			"position": "Analyst Programmer",
+			"duration": "Jan’20- till date",
+			"title": "eField",
+			"summary": "An Progressive Web Application (PWA) for Palm Beach County Building inspectors to result permit inspections using iPad or smartphones. An offline first application with ability to result inspection, attach inspection photos from library or capture from camera, speech to text, maps to show location, optimize route and start navigation to the location, inspector location tracking and syncing with the server. It also allows the inspector to view permit details and permit documents on demand.",
+			"responsibilities": [
+				"Complete app development including application architecture design and solution setup for PWA project using Angular 8 and Web API.",
+                                "Used NPM for installing required node modules and other required Angular NPM modules.",
+                                "Used Bootstrap 4 and custom CSS for creating a PWA that feels like native app.",
+				"App can be installed from the url on the device and it works offline.",
+				"Offline data is stored in IndexedDB. It periodically syncs data to the server using custom sync logic.",
+				"Used ArcGIS maps for the map based functionalities.",
+                                "Created custom components like Inspection location on map/ Optimize route/ enterprise login and also directives for file preview/ printing page using angular.",
+                                "Used Asp.NET 4.5 MVC project with Web API 2 for creating service layer.",
+                                "Design patterns like Repository, Dependency injection, IOC (Autofac).",
+                                "LINQ was used in the DAL (Data Access Layer) to interact with the Database."
+			],
+			"environment": "ASP.NET 4.5, C#, Entity Framework 6, Angular 8, Angular CLI, TypeScript, HTML, JavaScript, CSS, Bootstrap 4, TFS 2013, Toad, VS Code, IIS 8, JSON, jQuery"
+		},
+		{
+			"client": "Palm Beach County",
+			"clientLogo": "county-logo.png",
+			"position": "Analyst Programmer",
+			"duration": "Dec’17- Dec’19",
+			"title": "Building Online Submittal",
+			"summary": "Online Portal for Palm Beach County/State Contractors to apply for building permits online using pc or smartphones. A variety of functions can be performed using the portal like applying for a permit /upload documents /permit tracking /receive and respond to staff review comments and feedback /schedule inspections /download permit documents /manage permits. Portal can also be used to delegate the document uploading to respective architects/designers for the permit.",
+			"responsibilities": [
+				"Complete application architecture design, solution setup for Web API and Angular 5 project.",
+                                "Used NPM for installing required node modules and other required Angular NPM modules.",
+                                "Worked Extensively with Angular CLI for creating Components, Services, Pipes, Directives.",
+                                "Developed forms with custom validations using Angular Form controls and Reactive forms.",
+                                "Heavily used Rxjs Observables for implementing HTTP calls.",
+                                "Used REST client / POSTMAN to check the response of various API's, Swagger UI as a visual documentation for back-end implementation and client-side consumption.",
+                                "Used bootstrap and custom CSS for good responsive web design.",
+                                "Created custom components like File Upload/ Wizard/ Drag and Drop/ and also directives for file select/ printing page using angular.",
+                                "Used Asp.NET 4.5 MVC project with Web API 2 for creating service layer.",
+                                "Design patterns like Repository, Dependency injection, IOC (Autofac).",
+                                "LINQ was used in the DAL (Data Access Layer) to interact with the Database.",
+                                "Involved in development of core business components for the application involving documents/ application submittal/ fees calculation/ comment response.",
+                                "Integrated Oracle AutoVue a Java based web markup tool with .net project using web services.",
+                                "Created a PWA app for permit inspectors to view their itinerary and result inspections that sync with the server using web service."
+			],
+			"environment": "ASP.NET 4.5, C#, Entity Framework 6, Angular 5, Angular CLI, TypeScript, HTML, JavaScript, CSS, Bootstrap, AJAX, TFS 2013, Toad, Visual Studio 2015, IIS 7.5, XML, JSON, jQuery"
+		},
+		{
+			"client": "Palm Beach County",
+			"clientLogo": "county-logo.png",
+			"position": "Analyst Programmer",
+			"duration": "Apr’14- Nov’17",
+			"title": "Electronic Planning, Zoning and Building (ePZB)",
+			"summary": "ePZB provides Palm Beach County's Department of Planning, Zoning & Building with a comprehensive, integrated application for managing, monitoring and supporting their department's business processes. This modern web-enabled application makes use of an array of technologies which are seamlessly incorporated through an intuitive graphical interface. This application automates responsibilities and functions performed by the Administration, Building, Code Enforcement, Contractors Certification, Planning, and Zoning divisions.",
+			"responsibilities": [
+				"Worked on conversion to Oracle Managed Driver 12c and also Oracle 12c database upgrade and testing.",
+				"Worked as developer for Building module in ePZB and also worked on Production support issues.",
+				"Involved in design, development, testing and documentation phases of enhancements in the project.",
+				"Worked on Oracle stored procedures, packages, performance improvement and query optimizations.",
+				"Developed application to automate manual task of monthly report generation of invalid file data.",
+				"Worked on cross browser compatibility for old aspx pages."
+			],
+			"environment": "ASP.NET 4, C#, VB.NET, HTML, JavaScript, CSS, AJAX, TFS 2013, Toad, Visual Studio 2015, IIS 7.5, XML, JSON, jQuery"
+		},
+		{
+			"client": "Avaya",
+			"clientLogo": "avaya-logo.jpg",
+			"position": "Technology Analyst/.Net Developer",
+			"duration": "Dec’13 – Apr’14",
+			"title": "One Source",
+			"summary": "A web based partner portal providing a streamlined single view solution that consolidates quoting, pricing details and ordering process for Avaya's unified communications (UC), contact center, networking and small and medium enterprise (SME) solutions for a speedier and more productive quote-to-order process. It reduces the complexity of using multiple products for various Avaya acquisitions like Nortel, Radvision and heritage Avaya. It is a suite of applications integrated into one portal.",
+			"responsibilities": [
+				"Worked as developer for various applications in One Source which includes Special Bid Approval (SBA), EC Services and EC Data.",
+				"Involved in design, development, testing and documentation phases of project.",
+				"Played onsite Coordinator role for a team of 10 people at offshore.",
+				"Worked on Oracle stored procedures, packages, performance improvement and query optimizations.",
+				"Appreciations received for tuning SBA data loading process."
+			],
+			"environment": "ASP.NET 4.0, C#, HTML, JavaScript, CSS, AJAX, AJAX Control Toolkit, TFS 2010, Toad, Visual Studio 2012, 2010, IIS 7.5, XML, JSON"
+		},
+		{
+			"client": "Syngenta Crop Protection",
+			"clientLogo": "syngenta-logo.png",
+			"position": "Technology Analyst/.Net Developer",
+			"duration": "Jan’10 – Dec’12 and Apr’12 – Nov’13",
+			"title": "Redemption Management System (RMS)",
+			"summary": "A web based application used by Syngenta for creating reward programs like different types of offers and incentives for their customers and calculating redemption amount based on the sales of each customer. A very critical project for client as the system is used for generating cheques of around millions of dollars every year as incentives for the customers of Syngenta products. ",
+			"responsibilities": [
+				"Worked as developer for various modules in RMS which includes incentive approval, product price maintenance and incentive calculation.",
+				"Involved in design, development, testing and documentation phases of project.",
+				"Worked in development of project and then for production support.",
+				"Played onsite Coordinator and Support Lead role for the project. ",
+				"Used MVP pattern for development of the website.",
+				"Wrote complex Oracle stored procedures and packages in Oracle 11g.",
+				"Worked extensively on Oracle stored procedures, packages, performance improvement and query optimizations.",
+				"Worked on performance improvement by using global temporary tables, using oracle hints, using Parallel clause, SQL Plan.",
+				"Extensively used PLSQL developer for development in Oracle.",
+				"Implemented JSON, Active Directory (Search), RDLC.",
+				"Experience in handling meetings with client for requirement gathering and providing solutions for issues/change request.",
+				"Experience in Defect management which include Identifying, Analyzing, Prioritizing, Tracking and release.",
+				"Coordinate with 3rd party systems for any issues during production support.",
+				"Other activities include impact analysis, designing, mentoring new resources and also served as configuration controller and release manager for the application.",
+				"Appreciations received for developing “Release Helper” tool for release activities which reduced 75% of manual effort daily.",
+				"Awarded for the category of “Tech Guru” for tuning RMS nightly batches.",
+				"Received Best Project Award for Q3 2010 at unit level."
+			],
+			"environment": "ASP.NET 2.0, ASP.NET 4.0, C#, HTML, JavaScript, CSS, AJAX, AJAX Control Toolkit, Log4net, TFS 2008, PLSQL Developer, Visual Studio 2005, Visual Studio 2010, IIS 6, IIS 7, XML, RDLC, JSON"
+		},
+		{
+			"client": "Syngenta Crop Protection",
+			"clientLogo": "syngenta-logo.png",
+			"position": "Senior Software Engineer/.Net Developer",
+			"duration": "Jan’12 – Mar’12",
+			"title": "AgriCast",
+			"summary": "An intranet web application used by Syngenta customers to get daily weather update on various parameters like temperature, wind direction, humidity, precipitation, wind speed to help them plan for growing crops.",
+			"responsibilities": [
+				"Worked as a developer, tester and technical advisor for the application.",
+				"Helped team to resolve technical issues.",
+				"Worked on all latest technologies such as HTML 5, CSS 3, .Net framework 4.0, jQuery Mobile.",
+				"Developed embedded JavaScript and mobile website for the application.",
+				"Implemented jQuery and jQuery Mobile and embedded JavaScript for the application within a very short duration.",
+				"Worked on Object oriented JavaScript development.",
+				"Application build on ASP.Net 4.0.",
+				"Implemented HTTPHandler, JSONP, executing ASP.Net user controls on server side and taking the output in JSON object.",
+				"Testing of the mobile application using user agent strings with browser plugins."
+			],
+			"environment": "ASP.NET 4.0, C#, HTML 5, JavaScript, CSS 3, AJAX, TFS 2008, Visual Studio 2010, IIS 7, jQuery, jQuery Mobile, ASP.NET HttpHandlers, JSON, JSONP"
+		},
+		{
+			"client": "Syngenta Crop Protection",
+			"clientLogo": "syngenta-logo.png",
+			"position": "Software Engineer/.Net Developer",
+			"duration": "Sep’09 – Dec’09",
+			"title": "Licensing & Collaboration DB",
+			"summary": "It is an intranet application to manage Syngenta projects with third party companies. It is used to manage legal documents, projects and agreements.",
+			"responsibilities": [
+				"Worked as a Developer, Tester, Configuration Controller, Release Manager.",
+				"I was involved in developing project module, user management module, automated mail alert and document migration.",
+				"Worked on active directory for User management module and submitted a knowledge document on “Search, Add, Remove users from active directory groups using .net”.",
+				"Received Most Promising Fresher Award at unit level.",
+				"Client Feedback 7 on scale of 7.",
+				"Client Appreciations received after 1 year of production release for zero defects."
+			],
+			"environment": "ASP.Net 3.0, SQL Server 2005, C#, HTML, CSS, AJAX, JavaScript, LDAP, Visual Studio 2005, Team Foundation Server 2008"
+		},
+		{
+			"client": "Infosys Ltd.",
+			"clientLogo": "infosys-logo.jpg",
+			"position": "Systems Engineer/.Net Developer",
+			"duration": "Mar’09 – Aug’09",
+			"title": "Meeting Room Booking System",
+			"summary": "An Infosys internal application for managing timings for scheduling meeting rooms across development centers.",
+			"responsibilities": [
+				"I was handling the application alone right from requirement gathering to release.",
+				"Developer, Tester, Requirements gathering, Designing, Release.",
+				"Implemented Windows authenticated for booking, viewing, managing rooms.",
+				"Developed ASPX pages for generating report of meeting rooms.",
+				"Gathered requirements from the users, suggesting solutions for their need and successful release."
+			],
+			"environment": "ASP.Net 3.5, SQL Server 2005, HTML, CSS, JavaScript"
+		},
+		{
+			"client": "Infosys Ltd.",
+			"clientLogo": "infosys-logo.jpg",
+			"position": "Systems Engineer Trainee",
+			"duration": "Sept’08 – Feb’09",
+			"title": "Training Camp",
+			"summary": "Infosys training on Mainframe and .Net",
+			"responsibilities": [
+				"Completed Training with 4.93/5 GPA."
+			],
+			"environment": "Mainframe, .Net"
+		}
+	],
+	"education": [
+		{
+			"title": "The Maharaja Sayajirao University of Baroda, Gujarat, India",
+			"details": "B.E., Mechanical Engineering (2004-2008) (First Class with Distinction)",
+			"image": "msu-logo.png",
+			"class": "edu-img"
+		}
+	],
+	"certifications": [
+		{
+			"title": "Data Analyst Associate",
+			"details": "Analyzing Data with Microsoft PowerBI",
+			"image": "cert_DA-100.png",
+			"class": "cert-img"
+		},
+		{
+			"title": "Azure AI Fundamentals",
+			"details": "Microsoft Azure AI Fundamentals",
+			"image": "cert_AI-900.png",
+			"class": "cert-img"
+		},
+		{
+			"title": "Azure Fundamentals",
+			"details": "Microsoft Azure Fundamentals",
+			"image": "cert_AZ-900.png",
+			"class": "cert-img"
+		},
+		{
+			"title": "MCTS .NET Framework 4",
+			"details": "Web Applications .NET Framework 4",
+			"image": "cert_net4.gif",
+			"class": "cert-img net4"
+		}
+	]
+}
